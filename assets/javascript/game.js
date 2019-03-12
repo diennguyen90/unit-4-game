@@ -36,7 +36,7 @@ const init = () =>{
 
     resetNum();
 }
-// add for each clicks on crystals also create a reset for each wins or losses
+// add for each clicks on crystals also execute reset()for each wins or losses
 document.addEventListener('click', e =>{
     if(e.target.className === 'btn' ){
         myNum += parseInt(e.target.value)
@@ -60,8 +60,10 @@ document.addEventListener('click', e =>{
             // goalNum = Math.floor(Math.random() * 100) + 1
             // document.querySelector('.goalNum').textContent = goalNum
             resetNum();
-        } else if (wins === 10 || losses === 10){
+        } else if (wins === 10 || losses === 10 ){
             alert('game starting over')
+            document.querySelector('#wins').innerHTML = ''
+            document.querySelector('#losses').innerHTML = ''
             init();
         }
         

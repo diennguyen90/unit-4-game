@@ -1,3 +1,10 @@
+.container{
+    background-image: url('https://ae01.alicdn.com/kf/HTB1XbkfQpXXXXciXFXXq6xXFXXXA/HUAYI-Art-Fabric-Green-White-Chevron-Backdrop-Photography-Drop-For-Newborn-Background-XT-5354.jpg_640x640.jpg');
+    background-size:cover;
+
+}
+
+
 .btn{
     width:100px;
     height:80px;
