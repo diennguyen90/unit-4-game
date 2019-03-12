@@ -1,0 +1,87 @@
+.btn{
+    width:100px;
+    height:80px;
+}
+
+#crystal4{
+    background-image: url('https://cdn.shopify.com/s/files/1/0612/8753/files/emerald-1240px_b7e0fd37-ce3e-42f8-bf6d-db2161e0851f_1024x1024.jpg?v=1490233429');
+    background-size:100% 100%;
+
+}
+
+#crystal1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWSiMrjcBVAVrjtTssCy8rpBUV3Qt2ofRDrnxqmed-Llm_1ILn_A');
+    background-size:100% 100%;
+}
+
+#crystal2{
+    background-image: url('https://www.ajsgem.com/sites/default/files/blue-topaz.jpg');
+    background-size: 100% 100%;
+}
+#crystal3{
+    background-image: url('https://www.jewelryshoppingguide.com/wp-content/uploads/2017/12/yellow-sapphires-different-secondary-color.png');
+    background-size: 100% 100%;
+}
+
+.crystalHead{
+    background-color:#CA7126;
+    color:white;
+    width:300px;
+    height:100px;
+    padding: auto;
+    text-align:center;
+    padding-top:15px;
+}
+
+.rules{
+    background-color:#FBE6CD;
+    color:green;
+    width:40vw;
+    height:50vh;
+    padding:10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+
+.goalNum{
+    width:200px;
+    height:120px;
+    background-color:#5CC880;
+    color:gray;
+    font-size:40px;
+    float:left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.counter{
+    background-color: skyblue;
+    width:100px;
+    height: 120px;
+    text-align:center;
+    margin-left:210px;
+    padding:5px;
+    box-sizing: border-box;
+}
+.crystalList{
+    margin-top:20px;
+}
+
+.content2{
+    background-color:#2BA296;
+    width: 210px;
+    color: white;
+    padding: 5px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+#myNum{
+    background-color: #2BA296;
+    width:210px;
+    color: gray;
+    padding: 5px;
+    font-size:40px;
+    height:200px;
+
+}
